@@ -84,7 +84,7 @@ $(document).ready(function () {
    $('.count__count').css('opacity', '1');
    $('.count__count').spincrement({
     thousandSeparator: "",
-    duration: 4500
+    duration: 2000
    });
    show = false;
   }
