@@ -1,8 +1,7 @@
 if ($('.slider').length > 0) {
   $('.slider').slick({
-    //infinite: false;
+    infinite: true,
     autoplay: true,
-    // speed:1000,
     arrows: false,
     dots: true,
     slidesToShow: 1,
@@ -21,17 +20,18 @@ if ($('.slider').length > 0) {
 
 if ($('.testimonials__slider').length > 0) {
   $('.testimonials__slider').slick({
-    //infinite: false;
+    infinite: true,
     autoplay: true,
-    // speed:1000,
+    rtl: true,
+    pauseOnHover: true,
     arrows: true,
     dots: false,
     slidesToShow: 2,
     adaptiveHeight: true,
     autoplaySpeed: 6000,
     accessibility: false,
-    nextArrow: '<a type="button" class="slick-next"><i class="fas fa-angle-left"></i></a>',
-    prevArrow: '<a type="button" class="slick-prev"><i class="fas fa-angle-right"></i></a>',
+    nextArrow: '<a type="button" class="slick-next"><i class="fas fa-angle-right"></i></a>',
+    prevArrow: '<a type="button" class="slick-prev"><i class="fas fa-angle-left"></i></a>',
     responsive: [
       {
         breakpoint: 769,
