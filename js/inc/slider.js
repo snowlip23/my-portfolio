@@ -28,7 +28,7 @@ if ($('.testimonials__slider').length > 0) {
     dots: false,
     slidesToShow: 2,
     adaptiveHeight: true,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 4500,
     accessibility: false,
     nextArrow: '<a type="button" class="slick-next"><i class="fas fa-angle-right"></i></a>',
     prevArrow: '<a type="button" class="slick-prev"><i class="fas fa-angle-left"></i></a>',
@@ -41,10 +41,10 @@ if ($('.testimonials__slider').length > 0) {
           dots: false,
           slidesToShow: 1,
           adaptiveHeight: true,
-          autoplaySpeed: 6000,
+          autoplaySpeed: 4500,
           accessibility: false,
-          nextArrow: '<a type="button" class="slick-next"><i class="fas fa-angle-left"></i></a>',
-          prevArrow: '<a type="button" class="slick-prev"><i class="fas fa-angle-right"></i></a>',
+          nextArrow: '<a type="button" class="slick-next"><i class="fas fa-angle-right"></i></a>',
+    prevArrow: '<a type="button" class="slick-prev"><i class="fas fa-angle-left"></i></a>',
         }
       }]
   });
